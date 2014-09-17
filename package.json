@@ -1,0 +1,26 @@
+{
+  "name": "uswitch",
+  "version": "0.0.0",
+  "description": "uswitch inspired template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JG247/uswitch.git"
+  },
+  "author": "James Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JG247/uswitch/issues"
+  },
+  "homepage": "https://github.com/JG247/uswitch",
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-sass": "^0.12.1"
+  }
+}

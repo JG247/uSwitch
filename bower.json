@@ -1,0 +1,19 @@
+{
+  "name": "uswitch",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JG247/uswitch",
+  "authors": [
+    "James Grant"
+  ],
+  "description": "uswitch inspired template",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "requirejs": "~2.1.14"
+  },
+  "devDependencies": {
+    "domReady": "~2.0.1"
+  }
+}

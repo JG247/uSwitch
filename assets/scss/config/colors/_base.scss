@@ -1,0 +1,10 @@
+$primaryColor: #00b8ff;
+$white: #ffffff;
+$black: #000000;
+$red: #ff2a12;
+$redDarker: darken($red, 20%);
+$grey: #f3f3f3;
+$darkBlue: #213c7b;
+.bgGrey {
+  background-color: $grey;
+}

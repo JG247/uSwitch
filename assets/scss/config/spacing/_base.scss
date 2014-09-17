@@ -1,0 +1,57 @@
+$marginXXXLarge: 60px;
+$marginXXLarge: 50px;
+$marginXLarge: 40px;
+$marginLarge: 30px;
+$marginNormal: 20px;
+$marginSmall: 10px;
+$marginTight: 5px;
+$marginTiny: 2.5px;
+
+$paddingXXXLarge: 60px;
+$paddingXXLarge: 50px;
+$paddingXLarge: 40px;
+$paddingLarge: 30px;
+$paddingNormal: 20px;
+$paddingSmall: 10px;
+$paddingTight: 5px;
+$paddingTiny: 2.5px;
+
+.bodyContent {
+  margin-top: $marginLarge;
+}
+.energyLogos {
+  margin-bottom: $marginNormal;
+}
+.energyDealText {
+  p {
+    margin-bottom: 0;
+  }
+}
+.row.body {
+  margin-bottom: $marginLarge;
+  padding-bottom: $paddingLarge;
+  border-bottom: 1px solid $grey;
+}
+.dropDownTarget .container {
+  width: 880px;
+  padding-top: $paddingLarge;
+  padding-bottom: $paddingLarge;
+}
+.dropDownTrigger {
+  margin-bottom: $marginNormal;
+}
+.dropDownBottom .container {
+  padding-top: $paddingSmall;
+  padding-bottom: $paddingSmall;
+  width: 880px;
+}
+.gasContent {
+  padding-top: $paddingLarge;
+  padding-bottom: $paddingLarge;
+}
+.footer .container {
+  padding-top: $paddingLarge;
+  padding-bottom: $paddingLarge;
+  width: 800px;
+}
+

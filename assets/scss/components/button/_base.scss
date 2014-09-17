@@ -1,0 +1,40 @@
+.button {
+  p {
+    padding: $paddingSmall;
+  }
+  span {
+    margin-left: $marginNormal;
+  }
+  border-radius: $borderRadiusSmall;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.buttonPrimary {
+  background-color: $red;
+  box-shadow: 0px 5px 0px $redDarker;
+}
+
+.buttonSecondary {
+  width: 90px;
+  background-color: $white;
+  p {
+    padding: 6px;
+    text-align: center;
+  }
+}
+
+.signUp {
+  font-size: $fontSizeTight;
+  padding: 6px;
+  color: $black;
+}
+
+.button-arrow-white {
+  height: 9px;
+  width: 9px;
+}
+.button-text-white {
+  color: $white;
+}
