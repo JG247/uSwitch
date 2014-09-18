@@ -30,7 +30,20 @@ define([
         };
     };
 
+    App.prototype.checkEmail = function () {
+        document.getElementsByClassName("emailSubmit")[0].onclick = function () {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            var test = re.test(document.getElementsByClassName("emailInput")[0].value);
+            if ( test == false ) {
+                document.getElementsByClassName("status")[0].innerText = "That email address is not valid";
+            } else {
+                document.getElementsByClassName("status")[0].innerText = "You have successfully signed up!";
+            }
+        }
+    };
+
     var app = new App();
     app.closeContent();
+    app.checkEmail();
 
 });
