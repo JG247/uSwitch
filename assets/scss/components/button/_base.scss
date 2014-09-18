@@ -15,7 +15,11 @@
   background-color: $red;
   box-shadow: 0px 5px 0px $redDarker;
 }
-
+.toggleBtn {
+  &:hover {
+    cursor: pointer;
+  }
+}
 .buttonSecondary {
   width: 90px;
   background-color: $white;
