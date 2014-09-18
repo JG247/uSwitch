@@ -42,8 +42,15 @@ define([
         }
     };
 
+    App.prototype.validateGeo = function (lat, long) {
+        if (lat > -90 && lat < 90 && long > -180 && long < 180) {
+            return true;
+        }
+    };
+
     var app = new App();
     app.closeContent();
     app.checkEmail();
+    app.validateGeo(34,76);
 
 });
